@@ -1,0 +1,16 @@
+While this is a program that probably makes more sense to do in C 
+(using something like http://github.com/mattn/gntp-send ) I've done
+the first version in Python so I could have a working program. 
+
+Usage: gntp-tee.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -H HOST, --hostname=HOST
+                        Destination Host
+  -p PORT, --port=PORT  Destination Port
+  -P PASSWORD, --password=PASSWORD
+                        GNTP Password
+  -A APP, --appname=APP
+                        GNTP Application Name
+  -v                    Print Debugging to stderr
